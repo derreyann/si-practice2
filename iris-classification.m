@@ -1,11 +1,13 @@
-annInputs = xlsread('iris.xlsx', 'AAN input');
-annOutputs = xlsread('iris.xlsx', 'ANN output');
+annInputs = xlsread('crazy2.xlsx', 'input');
+annOutputs = xlsread('crazy2.xlsx', 'output');
 
 annInputs = annInputs';
 annOutputs = annOutputs';
 
-arch = 3;
-%arch = [4, 5]
+size(annInputs)
+size(annOutputs)
+arch = 10;
+
 
 ann  = patternnet(arch);
 
