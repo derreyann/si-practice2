@@ -9,3 +9,7 @@
 - Regression:
   - Boston housing dataset
   - Auto-MPG dataset (MPG: Miles per gallon) 
+ 
+![performance auto-mpg regression](https://i.imgur.com/Ny5u25O.jpg)
+
+![auto-mpg regression](https://i.imgur.com/EYiwFQo.jpg)
